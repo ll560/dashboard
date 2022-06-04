@@ -27,7 +27,9 @@ class App extends React.Component{
                     </div>
 
                     <div className="bottom">
-                        <p className="box2">Website Visitors</p>
+                        <div className="box2">Website Visitors
+                        <div className="box3"> </div>
+                        </div>
                     </div>
                 </div>
 
