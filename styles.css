@@ -17,9 +17,6 @@ body{
 
     text-align: center;
     padding: 190px 0px;
-
-
-
 }
 
 .area2{
@@ -31,6 +28,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+    margin-bottom: 20px;
 }
 
 .box{
@@ -42,7 +41,7 @@ body{
 .box2{
     background-color:rgb(194, 190, 190);
     width: 97%;
-    height: 44vh;
+    height: 46vh;
 
     margin: 10px;
 }
@@ -53,4 +52,13 @@ body{
     height: 260px;
 
     margin: 20px 20px 20px 30px;
+}
+
+.text{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.num{
+    padding-left: 10px;
 }

@@ -1,36 +1,97 @@
 console.log("hello")
 
+class Header extends React.Component {
+    render() {
+        return (
+            <h1>Dashboard</h1>
+        )
+    }
+}
+
+class Sidebar extends React.Component {
+    render() {
+        return (
+        <div className="sidebar">
+                <p>Dashboard</p>
+                <p>Widget</p>
+                <p>Reviews</p>
+                <p>Containers</p>
+                <p>Online Analysis</p>
+            
+        </div>
+        )
+    }
+}
+
+class Reviews extends React.Component {
+    render() {
+        return (
+            
+            <div className="box">Reviews
+                <p className="num">1,281</p>
+            </div>
+                      
+        )
+    }
+}
+
+class AverageRating extends React.Component {
+    render() {
+        return (
+            
+            <div className="box">Average Rating
+                <p className="num">4.6</p>
+            </div>
+                     
+        )
+    }
+}
+
+class SegmentAnalysis extends React.Component {
+    render() {
+        return (
+            
+            <div className="box">Segment Analysis
+                <p className="text">960</p>
+                <p className="text">122</p>
+                <p className="text">321</p>
+            </div>
+           
+                        
+        )
+    }
+}
+
+
+class Visitors extends React.Component {
+    render() {
+        return (
+            <div className="bottom">
+                        <div className="box2">Website Visitors
+                            <p className="num">821</p>
+                            <div className="box3"> </div>
+                        </div>
+                    </div>
+                        
+        )
+    }
+}
+
 class App extends React.Component{
     render() {
         return (
             <div >
-                <h1>Dashboard</h1> 
-        <div className="container">
-
-                <div className="sidebar">
-                    <div>
-                        <p>Dashboard</p>
-                        <p>Widget</p>
-                        <p>Reviews</p>
-                        <p>Containers</p>
-                        <p>Online Analysis</p>
-
+                <Header></Header>
+                <div className="container">
+                <Sidebar></Sidebar>
+                  <div className="area2">
+                  <div className="top">
+                        <Reviews></Reviews>
+                        <AverageRating></AverageRating>
+                        <SegmentAnalysis></SegmentAnalysis>
                     </div>
 
-                
-                </div>
-                <div className="area2">
-                    <div className="top">
-                        <p className="box">Reviews</p>
-                        <p className="box">Average Rating</p>
-                        <p className="box">Sentiment Analysis</p>
-                    </div>
-
-                    <div className="bottom">
-                        <div className="box2">Website Visitors
-                        <div className="box3"> </div>
-                        </div>
-                    </div>
+                    <Visitors></Visitors>
                 </div>
 
       </div>    
@@ -40,6 +101,8 @@ class App extends React.Component{
         )
     }
 }
+
+
 
 
 
