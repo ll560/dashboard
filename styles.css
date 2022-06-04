@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(241, 240, 240);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sidebar{
+    
+    width: 30%;
+    height: 50vh;
+
+    background-color: rgb(194, 190, 190);
+
+    text-align: center;
+    padding: 190px 0px;
+
+
+
+}
+
+.area2{
+    
+    width: 60%;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box{
+    background-color:rgb(194, 190, 190);
+    width: 30%;
+    height: 50vh
+}
+
+.box2{
+    background-color:rgb(194, 190, 190);
+    width: 97%;
+    height: 44vh;
+
+    margin: 10px;
+}
